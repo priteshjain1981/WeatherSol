@@ -28,7 +28,7 @@ namespace WeatherNews
                 "-LON:",weatherCollection.coord.lon,
                 "-Weather:",weatherCollection.main.temp);
             Console.WriteLine(weatherData); 
-            return weatherData;
+            return weatherData; 
         }
     }
 
